@@ -1,5 +1,6 @@
 #No netbeans files
 nbproject/
+nbproject/private
 
 *.tar.gz
 
