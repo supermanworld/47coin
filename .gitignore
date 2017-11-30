@@ -1,3 +1,6 @@
+#No netbeans files
+nbproject
+
 *.tar.gz
 
 *.exe
