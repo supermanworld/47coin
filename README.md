@@ -1,6 +1,8 @@
 A New Digital Asset Project based on the Bitcoin Project
 =====================================
 
+See website for further details:
+
 [![Build Status](https://travis-ci.org/bitcoin/bitcoin.svg?branch=master)](https://travis-ci.org/bitcoin/bitcoin)
 
 https://bitcoincore.org
