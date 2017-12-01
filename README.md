@@ -1,4 +1,4 @@
-Bitcoin Core integration/staging tree
+A Digital Asset based on the Bitcoin Source Code 
 =====================================
 
 [![Build Status](https://travis-ci.org/bitcoin/bitcoin.svg?branch=master)](https://travis-ci.org/bitcoin/bitcoin)
