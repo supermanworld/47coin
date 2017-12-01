@@ -1,3 +1,6 @@
+#Make sure nbproject is not included
+nbproject
+
 *.tar.gz
 
 *.exe
