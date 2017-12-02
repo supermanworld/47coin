@@ -8,10 +8,10 @@
 
     Bitcoin should be started with the command line arguments:
         bitcoind -testnet -daemon \
-                -zmqpubhashblock=tcp://127.0.0.1:28332 \
-                -zmqpubrawtx=tcp://127.0.0.1:28332 \
-                -zmqpubhashtx=tcp://127.0.0.1:28332 \
-                -zmqpubhashblock=tcp://127.0.0.1:28332
+                -zmqpubhashblock=tcp://127.0.0.1:27443 \
+                -zmqpubrawtx=tcp://127.0.0.1:27443 \
+                -zmqpubhashtx=tcp://127.0.0.1:27443 \
+                -zmqpubhashblock=tcp://127.0.0.1:27443
 
     We use the asyncio library here.  `self.handle()` installs itself as a
     future at the end of the function.  Since it never returns with the event
@@ -34,7 +34,7 @@ if not (sys.version_info.major >= 3 and sys.version_info.minor >= 5):
     print("This example only works with Python 3.5 and greater")
     exit(1)
 
-port = 28332
+port = 27443
 
 class ZMQHandler():
     def __init__(self):
